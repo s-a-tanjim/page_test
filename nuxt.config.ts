@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   ssr: false,
   app: {
-    baseURL: 'page_test',
+    baseURL: '/page_test/',
     head: {
       charset: 'UTF-8',
       title: 'Test Page',
@@ -21,7 +21,7 @@ export default defineNuxtConfig({
         {
           hid: 'description',
           name: 'description',
-          content: 'CESR Viewer | Tuttt tuttt'
+          content: 'Test Page | Tuttt tuttt'
         },
         {
           property: 'og:title',
