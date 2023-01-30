@@ -1,6 +1,9 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   ssr: false,
+  router: {
+    base: '/page_test/'
+  },
   app: {
     head: {
       charset: 'UTF-8',
