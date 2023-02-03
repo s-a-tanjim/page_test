@@ -15,6 +15,9 @@ npm install
 
 # pnpm
 pnpm install
+
+
+
 ```
 
 ## Development Server
